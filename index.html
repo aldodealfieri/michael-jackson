@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Jackson – Il Re del Pop</title>
+  <meta name="description" content="Un omaggio a Michael Jackson: vita, album, momenti iconici e un po' di magia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">M<span>J</span></a>
+    <nav>
+      <a href="#vita">Vita</a>
+      <a href="#album">Album</a>
+      <a href="#numeri">Numeri</a>
+      <a href="#pista">Pista</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas id="sparkles"></canvas>
+    <div class="hero-inner">
+      <svg class="fedora" viewBox="0 0 200 110" aria-hidden="true">
+        <ellipse cx="100" cy="82" rx="92" ry="16" fill="#0b0b0b" stroke="#d4af37" stroke-width="2"/>
+        <path d="M45 80 C48 30, 70 14, 100 14 C130 14, 152 30, 155 80 Z" fill="#111" stroke="#d4af37" stroke-width="2"/>
+        <path d="M47 68 C75 76, 125 76, 153 68 L154 78 C125 86, 75 86, 46 78 Z" fill="#d4af37"/>
+      </svg>
+      <p class="eyebrow">29 agosto 1958 · 25 giugno 2009</p>
+      <h1>Michael <em>Jackson</em></h1>
+      <p class="tagline">Il Re del Pop. Una voce, un passo di danza, una leggenda.</p>
+      <a href="#vita" class="btn">Scopri la sua storia</a>
+    </div>
+    <div class="scroll-hint">scorri ↓</div>
+  </section>
+
+  <!-- VITA / TIMELINE -->
+  <section class="section" id="vita">
+    <h2 class="title">La sua storia</h2>
+    <p class="lead">Dai primi passi con i fratelli fino al palcoscenico del mondo intero.</p>
+
+    <div class="timeline">
+      <article class="event"><span class="year">1958</span><div><h3>La nascita</h3><p>Il 29 agosto nasce a Gary, in Indiana, in una famiglia numerosa e molto musicale.</p></div></article>
+      <article class="event"><span class="year">1964</span><div><h3>I Jackson 5</h3><p>Insieme ai fratelli inizia a esibirsi: il talento del piccolo Michael colpisce subito tutti.</p></div></article>
+      <article class="event"><span class="year">1969</span><div><h3>Il successo con la Motown</h3><p>Il gruppo conquista le classifiche con "I Want You Back" e diventa un fenomeno.</p></div></article>
+      <article class="event"><span class="year">1979</span><div><h3>Off the Wall</h3><p>Il primo grande album da solista da adulto: groove, eleganza e una nuova identità artistica.</p></div></article>
+      <article class="event"><span class="year">1982</span><div><h3>Thriller</h3><p>Esce uno degli album più venduti di tutti i tempi e cambia per sempre il modo di fare musica e video.</p></div></article>
+      <article class="event"><span class="year">1983</span><div><h3>Il moonwalk</h3><p>Nello speciale tv "Motown 25" mostra al mondo il suo celebre passo di danza.</p></div></article>
+      <article class="event"><span class="year">1985</span><div><h3>We Are the World</h3><p>Co-scrive con Lionel Richie il brano benefico che riunisce decine di artisti contro la fame in Africa.</p></div></article>
+      <article class="event"><span class="year">1987</span><div><h3>Bad</h3><p>Un nuovo album, un nuovo look e un tour mondiale da record.</p></div></article>
+      <article class="event"><span class="year">1991</span><div><h3>Dangerous</h3><p>Suoni più duri e innovativi, tra pop, rock e new jack swing.</p></div></article>
+      <article class="event"><span class="year">1995</span><div><h3>HIStory</h3><p>Un doppio album che unisce una raccolta dei successi e brani inediti.</p></div></article>
+      <article class="event"><span class="year">2001</span><div><h3>Invincible</h3><p>L'ultimo album in studio pubblicato in vita.</p></div></article>
+      <article class="event"><span class="year">2009</span><div><h3>L'addio</h3><p>Il 25 giugno scompare a Los Angeles, lasciando milioni di fan in tutto il mondo. La sua musica continua a vivere.</p></div></article>
+    </div>
+  </section>
+
+  <!-- ALBUM -->
+  <section class="section dark" id="album">
+    <h2 class="title">Gli album in studio</h2>
+    <p class="lead">Passa il mouse (o tocca) su una card per scoprire una curiosità.</p>
+
+    <div class="cards">
+      <div class="card" style="--c1:#d4af37;--c2:#3a2c00" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1979</span><h3>Off the Wall</h3></div>
+          <div class="card-back"><p>L'album che lo lanciò come artista solista di livello mondiale, prodotto con Quincy Jones.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#c0392b;--c2:#2a0a07" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1982</span><h3>Thriller</h3></div>
+          <div class="card-back"><p>È considerato uno degli album più venduti di sempre e ha vinto otto Grammy in una sola serata nel 1984.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#8e8e8e;--c2:#161616" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1987</span><h3>Bad</h3></div>
+          <div class="card-back"><p>Cinque dei suoi singoli arrivarono al primo posto della classifica americana.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#6c3fb5;--c2:#140a26" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1991</span><h3>Dangerous</h3></div>
+          <div class="card-back"><p>Segna una svolta più cupa e sperimentale, con produzioni ricche e moderne.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#1f7a8c;--c2:#06161a" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1995</span><h3>HIStory</h3></div>
+          <div class="card-back"><p>Un doppio album: un disco di grandi successi e un disco di brani nuovi.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#b8860b;--c2:#1c1400" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">2001</span><h3>Invincible</h3></div>
+          <div class="card-back"><p>L'ultimo album in studio uscito durante la sua vita, con collaborazioni di molti produttori.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="note">Vuoi ascoltarlo? <a href="https://open.spotify.com/search/Michael%20Jackson" target="_blank" rel="noopener">Cerca Michael Jackson su Spotify</a>.</p>
+  </section>
+
+  <!-- NUMERI -->
+  <section class="section" id="numeri">
+    <h2 class="title">In numeri</h2>
+    <div class="stats">
+      <div class="stat"><span class="num" data-target="13">0</span><p>Grammy Awards</p></div>
+      <div class="stat"><span class="num" data-target="8">0</span><p>Grammy in una sola notte (1984)</p></div>
+      <div class="stat"><span class="num" data-target="6">0</span><p>album in studio da adulto</p></div>
+      <div class="stat"><span class="num" data-target="1969">0</span><p>anno del primo successo con i Jackson 5</p></div>
+    </div>
+  </section>
+
+  <!-- PISTA DA BALLO -->
+  <section class="section dark" id="pista">
+    <h2 class="title">La pista da ballo</h2>
+    <p class="lead">Muovi il mouse (o il dito) sulla pista e fai accendere le piastrelle.</p>
+    <div class="floor" id="floor"></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section" id="quiz">
+    <h2 class="title">Quanto lo conosci?</h2>
+    <div class="quiz" id="quiz-box">
+      <p class="q-count" id="q-count"></p>
+      <h3 id="q-text"></h3>
+      <div class="answers" id="answers"></div>
+      <p class="feedback" id="feedback"></p>
+      <button class="btn" id="next" hidden>Avanti</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Un omaggio al Re del Pop ✦</p>
+    <p class="small">Sito realizzato con affetto da un fan. Non ufficiale e senza scopo di lucro.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
