@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Jackson – Il Re del Pop</title>
+  <meta name="description" content="Un omaggio a Michael Jackson: vita, album, momenti iconici e un po' di magia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="progress"></div>
+  <button id="totop" aria-label="Torna su">↑</button>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">M<span>J</span></a>
+    <nav>
+      <a href="#vita">Vita</a>
+      <a href="#album">Musica</a>
+      <a href="#video">Video</a>
+      <a href="#live">Live</a>
+      <a href="#stile">Stile</a>
+      <a href="#cuore">Cuore</a>
+      <a href="#eredita">Eredità</a>
+      <a href="#galleria">Foto</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas id="sparkles"></canvas>
+    <div class="hero-inner">
+      <svg class="fedora" viewBox="0 0 200 110" aria-hidden="true">
+        <ellipse cx="100" cy="82" rx="92" ry="16" fill="#0b0b0b" stroke="#d4af37" stroke-width="2"/>
+        <path d="M45 80 C48 30, 70 14, 100 14 C130 14, 152 30, 155 80 Z" fill="#111" stroke="#d4af37" stroke-width="2"/>
+        <path d="M47 68 C75 76, 125 76, 153 68 L154 78 C125 86, 75 86, 46 78 Z" fill="#d4af37"/>
+      </svg>
+      <p class="eyebrow">29 agosto 1958 · 25 giugno 2009</p>
+      <h1>Michael <em>Jackson</em></h1>
+      <p class="tagline">Il Re del Pop. Una voce, un passo di danza, una leggenda.</p>
+      <a href="#vita" class="btn">Scopri la sua storia</a>
+      <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="scroll-hint">scorri ↓</div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>KING OF POP ✦ OFF THE WALL ✦ THRILLER ✦ BAD ✦ DANGEROUS ✦ HISTORY ✦ INVINCIBLE ✦ MOONWALK ✦ </span>
+      <span>KING OF POP ✦ OFF THE WALL ✦ THRILLER ✦ BAD ✦ DANGEROUS ✦ HISTORY ✦ INVINCIBLE ✦ MOONWALK ✦ </span>
+    </div>
+  </div>
+
+  <!-- VITA / TIMELINE -->
+  <section class="section" id="vita">
+    <h2 class="title">La sua storia</h2>
+    <p class="lead">Dai primi passi con i fratelli fino al palcoscenico del mondo intero.</p>
+
+    <div class="timeline">
+      <article class="event"><span class="year">1958</span><div><h3>La nascita</h3><p>Il 29 agosto nasce a Gary, in Indiana, in una famiglia numerosa e molto musicale.</p></div></article>
+      <article class="event"><span class="year">1964</span><div><h3>I Jackson 5</h3><p>Insieme ai fratelli inizia a esibirsi: il talento del piccolo Michael colpisce subito tutti.</p></div></article>
+      <article class="event"><span class="year">1969</span><div><h3>Il successo con la Motown</h3><p>Il gruppo conquista le classifiche con "I Want You Back" e diventa un fenomeno.</p></div></article>
+      <article class="event"><span class="year">1979</span><div><h3>Off the Wall</h3><p>Il primo grande album da solista da adulto: groove, eleganza e una nuova identità artistica.</p></div></article>
+      <article class="event"><span class="year">1982</span><div><h3>Thriller</h3><p>Esce uno degli album più venduti di tutti i tempi e cambia per sempre il modo di fare musica e video.</p></div></article>
+      <article class="event"><span class="year">1983</span><div><h3>Il moonwalk</h3><p>Nello speciale tv "Motown 25" mostra al mondo il suo celebre passo di danza.</p></div></article>
+      <article class="event"><span class="year">1985</span><div><h3>We Are the World</h3><p>Co-scrive con Lionel Richie il brano benefico che riunisce decine di artisti contro la fame in Africa.</p></div></article>
+      <article class="event"><span class="year">1987</span><div><h3>Bad</h3><p>Un nuovo album, un nuovo look e un tour mondiale da record.</p></div></article>
+      <article class="event"><span class="year">1991</span><div><h3>Dangerous</h3><p>Suoni più duri e innovativi, tra pop, rock e new jack swing.</p></div></article>
+      <article class="event"><span class="year">1992</span><div><h3>Heal the World Foundation</h3><p>Fonda l'organizzazione benefica con cui sostiene progetti a favore dei bambini; nello stesso anno parte il Dangerous World Tour.</p></div></article>
+      <article class="event"><span class="year">1993</span><div><h3>Super Bowl XXVII</h3><p>Il 31 gennaio si esibisce all'intervallo del Super Bowl davanti a un pubblico televisivo enorme, cambiando per sempre lo show dell'evento.</p></div></article>
+      <article class="event"><span class="year">1995</span><div><h3>HIStory</h3><p>Un doppio album che unisce una raccolta dei successi e brani inediti.</p></div></article>
+      <article class="event"><span class="year">2001</span><div><h3>Invincible</h3><p>L'ultimo album in studio pubblicato in vita.</p></div></article>
+      <article class="event"><span class="year">2009</span><div><h3>L'addio</h3><p>Il 25 giugno scompare a Los Angeles, lasciando milioni di fan in tutto il mondo. La sua musica continua a vivere.</p></div></article>
+    </div>
+  </section>
+
+  <!-- L'UOMO DIETRO L'ARTISTA -->
+  <section class="section" id="uomo">
+    <h2 class="title">L'uomo dietro l'artista</h2>
+    <p class="lead">Oltre le luci del palco: infanzia, famiglia e generosità.</p>
+    <div class="two-col">
+      <div class="panel">
+        <h3>Un'infanzia sul palco</h3>
+        <p>Michael cresce a Gary, in Indiana, in una famiglia numerosa. Il padre, Joseph, gestisce i Jackson 5 con grande severità e le prove sono lunghe e rigorose. Quella disciplina contribuisce a formare un professionista straordinario, ma Michael racconterà più volte, anche in una celebre intervista televisiva del 1993, di aver sentito la mancanza di un'infanzia normale.</p>
+      </div>
+      <div class="panel">
+        <h3>Il perfezionista</h3>
+        <p>Chi ha lavorato con lui lo descrive come un artista ossessionato dai dettagli: coreografie provate all'infinito, arrangiamenti rifatti finché non erano esattamente come li immaginava. Con Quincy Jones, producendo Off the Wall, Thriller e Bad, nasce una delle collaborazioni più fertili della storia della musica pop.</p>
+      </div>
+      <div class="panel">
+        <h3>Neverland e la vita privata</h3>
+        <p>Nel 1988 acquista la tenuta che chiamerà Neverland Ranch, in California, un luogo che per lui voleva essere un rifugio e un parco giochi. Diventerà papà di tre figli, Prince, Paris e Bigi, che ha sempre cercato di proteggere dall'attenzione dei media.</p>
+      </div>
+      <div class="panel">
+        <h3>La beneficenza</h3>
+        <p>Nel 1992 fonda la Heal the World Foundation e nel corso della carriera sostiene numerose organizzazioni benefiche. Brani come "We Are the World" e "Heal the World" nascono proprio dal desiderio di usare la musica per aiutare gli altri.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SALUTE -->
+  <section class="section dark" id="salute">
+    <h2 class="title">La salute</h2>
+    <p class="lead">I problemi fisici che lo hanno accompagnato, raccontati con rispetto.</p>
+    <div class="health">
+      <div class="h-item">
+        <span class="h-year">1984</span>
+        <h3>L'incidente sul set</h3>
+        <p>Durante le riprese di uno spot pubblicitario a Los Angeles, un effetto pirotecnico gli provoca ustioni di secondo grado al cuoio capelluto. Il dolore e le cure successive segnano l'inizio di un lungo rapporto con i farmaci antidolorifici.</p>
+      </div>
+      <div class="h-item">
+        <span class="h-year">anni '80</span>
+        <h3>Vitiligine e lupus</h3>
+        <p>Jackson ha parlato pubblicamente di soffrire di vitiligine, una condizione che provoca la perdita di pigmentazione della pelle, e ha riferito anche di una forma di lupus. La vitiligine è stata poi menzionata anche nel referto dell'autopsia. Per molti anni, voci e speculazioni sul suo aspetto hanno alimentato i tabloid.</p>
+      </div>
+      <div class="h-item">
+        <span class="h-year">1993</span>
+        <h3>Lo stop al tour</h3>
+        <p>Durante il Dangerous World Tour annuncia di dover interrompere le date rimanenti per entrare in un programma di riabilitazione dalla dipendenza da antidolorifici.</p>
+      </div>
+      <div class="h-item">
+        <span class="h-year">2009</span>
+        <h3>L'ultima fase</h3>
+        <p>Si prepara a una lunga serie di concerti a Londra, This Is It. Il 25 giugno 2009 muore a Los Angeles per arresto cardiaco. Le autorità hanno stabilito che la causa è un'intossicazione acuta da propofol, assunto con altri sedativi. Il suo medico personale, Conrad Murray, è stato condannato nel 2011 per omicidio colposo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- POLEMICHE -->
+  <section class="section" id="polemiche">
+    <h2 class="title">Ombre e polemiche</h2>
+    <p class="lead">Una vita sotto i riflettori è fatta anche di momenti difficili. Qui i fatti principali, in modo equilibrato. Tocca per aprire.</p>
+    <div class="acc">
+      <details>
+        <summary>Il rapporto con la stampa e i soprannomi</summary>
+        <p>Negli anni '80 e '90 i tabloid costruiscono attorno a lui un personaggio spesso lontano dalla realtà, a partire dal soprannome "Wacko Jacko", che Jackson ha sempre detestato. Alcune storie, come quella della camera iperbarica, nascevano da trovate della stampa o da operazioni di immagine più che da fatti verificati.</p>
+      </details>
+      <details>
+        <summary>Le accuse del 1993 e l'accordo</summary>
+        <p>Nel 1993 un ragazzino e la sua famiglia lo accusano di abusi. Jackson ha sempre negato ogni addebito. La vicenda si chiude con un accordo economico in sede civile, senza che nessuna accusa penale venga portata avanti. Fu un periodo durissimo per lui, anche sul piano personale.</p>
+      </details>
+      <details>
+        <summary>Il processo del 2005</summary>
+        <p>Nel 2003 viene incriminato in California. Il processo si conclude nel giugno 2005 con l'assoluzione su tutti i capi d'accusa. Dopo il verdetto Jackson, provato dall'esperienza, si allontana a lungo dagli Stati Uniti.</p>
+      </details>
+      <details>
+        <summary>Il documentario del 2019 e le cause successive</summary>
+        <p>Dopo la sua morte, nel documentario "Leaving Neverland" (2019) due uomini ripetono accuse nei suoi confronti. La famiglia e gli eredi le hanno sempre respinte, definendo il film di parte, e le vicende legali collegate sono proseguite per anni. Su questo tema le opinioni restano molto divise: per aggiornamenti seri conviene consultare fonti giornalistiche recenti.</p>
+      </details>
+      <details>
+        <summary>Il momento di Berlino, 2002</summary>
+        <p>Nel 2002 mostra il figlio più piccolo dal balcone di un hotel a Berlino. Jackson lo definì in seguito un gesto sconsiderato e si scusò pubblicamente. Il caso fece molto discutere e contribuì all'immagine negativa raccontata dai media.</p>
+      </details>
+      <details>
+        <summary>Le difficoltà economiche</summary>
+        <p>Spese enormi, cause legali e un tenore di vita molto elevato portano negli anni 2000 a seri problemi finanziari. Nonostante tutto, mantenne una quota importante del catalogo editoriale Sony/ATV, che includeva canzoni dei Beatles acquistate negli anni '80.</p>
+      </details>
+    </div>
+    <p class="note">Questa sezione riassume vicende pubbliche e documentate; non è una ricostruzione giudiziaria completa.</p>
+  </section>
+
+  <!-- ALBUM -->
+  <section class="section dark" id="album">
+    <h2 class="title">Gli album in studio</h2>
+    <p class="lead">Sei dischi, sei epoche. Passa il mouse (o tocca) su un vinile per scoprire una curiosità.</p>
+
+    <div class="cards">
+      <div class="card" style="--c1:#d4af37;--c2:#3a2c00" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1979</span><h3>Off the Wall</h3></div>
+          <div class="card-back"><p>L'album che lo lanciò come artista solista di livello mondiale, prodotto con Quincy Jones.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#c0392b;--c2:#2a0a07" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1982</span><h3>Thriller</h3></div>
+          <div class="card-back"><p>È considerato uno degli album più venduti di sempre e ha vinto otto Grammy in una sola serata nel 1984.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#8e8e8e;--c2:#161616" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1987</span><h3>Bad</h3></div>
+          <div class="card-back"><p>Cinque dei suoi singoli arrivarono al primo posto della classifica americana.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#6c3fb5;--c2:#140a26" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1991</span><h3>Dangerous</h3></div>
+          <div class="card-back"><p>Segna una svolta più cupa e sperimentale, con produzioni ricche e moderne.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#1f7a8c;--c2:#06161a" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">1995</span><h3>HIStory</h3></div>
+          <div class="card-back"><p>Un doppio album: un disco di grandi successi e un disco di brani nuovi.</p></div>
+        </div>
+      </div>
+      <div class="card" style="--c1:#b8860b;--c2:#1c1400" tabindex="0">
+        <div class="card-inner">
+          <div class="card-front"><span class="c-year">2001</span><h3>Invincible</h3></div>
+          <div class="card-back"><p>L'ultimo album in studio uscito durante la sua vita, con collaborazioni di molti produttori.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="note">Vuoi ascoltarlo? <a href="https://open.spotify.com/search/Michael%20Jackson" target="_blank" rel="noopener">Cerca Michael Jackson su Spotify</a>.</p>
+  </section>
+
+  <!-- BRANI ICONICI -->
+  <section class="section" id="brani">
+    <h2 class="title">Brani iconici</h2>
+    <p class="lead">Le canzoni che hanno fatto la storia: crediti, significato e retroscena. (Niente testi: solo il loro spirito.)</p>
+    <div class="songs">
+      <article class="song"><span class="tag">Thriller · 1982</span><h3>Billie Jean</h3><p>Scritta da Jackson. Racconta la pressione della fama e l'ansia di essere accusati ingiustamente. Il suo basso inconfondibile e il ritmo secco ne fanno uno dei brani più riconoscibili in assoluto. Fu il pezzo con cui presentò il moonwalk in tv nel 1983.</p></article>
+      <article class="song"><span class="tag">Thriller · 1982</span><h3>Beat It</h3><p>Scritta da Jackson, con l'assolo di chitarra di Eddie Van Halen. Il messaggio è chiaro: è più coraggioso evitare una rissa che cercarla. Mescola pop e hard rock e abbatte le barriere tra le radio.</p></article>
+      <article class="song"><span class="tag">Thriller · 1982</span><h3>Thriller</h3><p>Scritta da Rod Temperton, con la voce recitata di Vincent Price. Una canzone dal tono horror ma giocoso, trasformata da un video-cortometraggio in un evento culturale.</p></article>
+      <article class="song"><span class="tag">Bad · 1987</span><h3>Smooth Criminal</h3><p>Scritta da Jackson. Una storia di suspense con una vittima misteriosa. La famosa domanda ripetuta nel brano sembra ispirata ai manichini usati per insegnare la rianimazione. Il video in stile anni '30 è parte del film Moonwalker.</p></article>
+      <article class="song"><span class="tag">Bad · 1987</span><h3>Man in the Mirror</h3><p>Scritta da Siedah Garrett e Glen Ballard. Il messaggio è che il cambiamento del mondo comincia da sé stessi. È diventata una delle canzoni-simbolo del suo impegno sociale.</p></article>
+      <article class="song"><span class="tag">Dangerous · 1991</span><h3>Black or White</h3><p>Scritta da Jackson, con la chitarra di Slash. Parla di convivenza tra persone diverse. Il video, con l'effetto di trasformazione dei volti, fu trasmesso in contemporanea in moltissimi paesi.</p></article>
+      <article class="song"><span class="tag">Dangerous · 1991</span><h3>Heal the World</h3><p>Scritta da Jackson. Una preghiera semplice e commovente per un mondo migliore per i bambini. È il brano legato più direttamente alla sua fondazione benefica.</p></article>
+      <article class="song"><span class="tag">HIStory · 1995</span><h3>Earth Song</h3><p>Scritta da Jackson. Un grido per l'ambiente, gli animali e le vittime delle guerre. Arrivò al primo posto in Gran Bretagna a Natale del 1995.</p></article>
+      <article class="song"><span class="tag">1985 · USA for Africa</span><h3>We Are the World</h3><p>Scritta da Jackson e Lionel Richie, prodotta da Quincy Jones. Registrata in una sola notte da decine di artisti, raccolse fondi per le popolazioni colpite dalla carestia in Africa.</p></article>
+    </div>
+  </section>
+
+  <!-- COLLABORAZIONI -->
+  <section class="section dark" id="collab">
+    <h2 class="title">Collaborazioni</h2>
+    <p class="lead">Le persone con cui ha condiviso la musica.</p>
+    <div class="collab">
+      <div class="co"><b>Paul McCartney</b><p>Duetti in "The Girl Is Mine" e "Say Say Say". McCartney scrisse anche "Girlfriend" per Off the Wall.</p></div>
+      <div class="co"><b>Stevie Wonder</b><p>Autore di "I Can't Help It" e partner in "Just Good Friends".</p></div>
+      <div class="co"><b>Janet Jackson</b><p>La sorella è con lui in "Scream" (1995), il cui video è ricordato per l'altissimo budget.</p></div>
+      <div class="co"><b>Slash</b><p>Le chitarre di "Black or White" e di altri brani di Dangerous.</p></div>
+      <div class="co"><b>Eddie Van Halen</b><p>L'assolo di "Beat It", registrato come favore.</p></div>
+      <div class="co"><b>Lionel Richie</b><p>Co-autore di "We Are the World".</p></div>
+      <div class="co"><b>Siedah Garrett</b><p>Co-autrice di "Man in the Mirror" e voce duettante in "I Just Can't Stop Loving You".</p></div>
+      <div class="co"><b>Quincy Jones</b><p>Il produttore di Off the Wall, Thriller e Bad: il sodalizio più celebre della sua carriera.</p></div>
+    </div>
+  </section>
+
+  <!-- VIDEO E FILM -->
+  <section class="section" id="video">
+    <h2 class="title">Video e film</h2>
+    <p class="lead">Quando i videoclip sono diventati cinema.</p>
+    <div class="two-col">
+      <div class="panel"><h3>Thriller (1983)</h3><p>Circa 14 minuti diretti da John Landis, con trama, dialoghi e coreografia da horror musicale. Ha cambiato l'idea stessa di videoclip, trasformandolo in uno spettacolo da evento.</p></div>
+      <div class="panel"><h3>Billie Jean e Beat It</h3><p>Furono tra i primi video di un artista afroamericano a ottenere una programmazione intensa su MTV, aiutando ad aprire il canale a un pubblico più ampio. Il premio MTV Video Vanguard fu poi intitolato a lui.</p></div>
+      <div class="panel"><h3>Smooth Criminal (1988)</h3><p>Scena cinematografica ambientata in un locale anni '30, con la celebre inclinazione e la coreografia di gruppo. Fa parte del film Moonwalker.</p></div>
+      <div class="panel"><h3>Black or White (1991)</h3><p>Famoso per le trasformazioni di volti da un viso all'altro, una novità tecnica all'epoca. Fu mostrato in contemporanea in molti paesi.</p></div>
+    </div>
+    <h3 class="sub">Film e apparizioni</h3>
+    <div class="chips">
+      <span><b>The Wiz</b> · 1978 · lo Spaventapasseri; qui conobbe Quincy Jones</span>
+      <span><b>Captain EO</b> · 1986 · film 3D per i parchi Disney, con Coppola e Lucas</span>
+      <span><b>Moonwalker</b> · 1988 · film musicale con Smooth Criminal</span>
+      <span><b>I Simpson</b> · 1991 · la voce parlata in "Stark Raving Dad"</span>
+      <span><b>Ghosts</b> · 1996 · cortometraggio fantastico</span>
+      <span><b>Men in Black II</b> · 2002 · breve cameo</span>
+    </div>
+  </section>
+
+  <!-- LIVE -->
+  <section class="section dark" id="live">
+    <h2 class="title">Dal vivo</h2>
+    <p class="lead">Il palco era il suo habitat naturale.</p>
+    <div class="health">
+      <div class="h-item"><span class="h-year">1987–89</span><h3>Bad World Tour</h3><p>Il suo primo grande tour da solista: oltre cento concerti nel mondo, con un'attenzione maniacale a luci, coreografie ed effetti.</p></div>
+      <div class="h-item"><span class="h-year">1992–93</span><h3>Dangerous World Tour</h3><p>Aperto dalla scenografia spettacolare e da un ingresso quasi teatrale. Fu interrotto nel 1993, quando Jackson decise di curarsi dalla dipendenza dai farmaci.</p></div>
+      <div class="h-item"><span class="h-year">1996–97</span><h3>HIStory World Tour</h3><p>Più di ottanta concerti nel mondo, con scenografie monumentali e un forte messaggio sociale.</p></div>
+      <div class="h-item"><span class="h-year">2009</span><h3>This Is It</h3><p>La serie di concerti all'O2 Arena di Londra, annunciata in 10 date e poi estesa a 50, non è mai iniziata. Le prove sono diventate il film "This Is It", uscito dopo la sua scomparsa.</p></div>
+    </div>
+    <h3 class="sub">Esibizioni storiche</h3>
+    <div class="two-col">
+      <div class="panel"><h3>Motown 25 (1983)</h3><p>Dopo la reunion con i fratelli, da solo sul palco canta Billie Jean e mostra per la prima volta il moonwalk davanti al grande pubblico. Il giorno dopo era sulla bocca di tutti.</p></div>
+      <div class="panel"><h3>Super Bowl XXVII (1993)</h3><p>Compare in pose statuarie davanti a un pubblico gigantesco prima di esplodere nei suoi successi, rivoluzionando il concetto di show dell'intervallo.</p></div>
+      <div class="panel"><h3>Grammy Awards</h3><p>Nel 1984 conquista otto premi in una sola serata; nel 1993 riceve il Grammy Legend Award.</p></div>
+      <div class="panel"><h3>30° anniversario (2001)</h3><p>I concerti al Madison Square Garden celebrano i suoi trent'anni da solista, con ospiti e un momento di reunion con i fratelli.</p></div>
+    </div>
+    <h3 class="sub">Brani che tornavano nei concerti</h3>
+    <p class="note" style="margin-top:0">Wanna Be Startin' Somethin' · Billie Jean · Smooth Criminal · Beat It · Thriller · Man in the Mirror · Black or White · Earth Song</p>
+  </section>
+
+  <!-- STILE E DANZA -->
+  <section class="section" id="stile">
+    <h2 class="title">Danza e stile</h2>
+    <p class="lead">Ogni gesto e ogni dettaglio era pensato.</p>
+
+    <div class="shoe-stage" aria-label="Animazione del moonwalk">
+      <div class="shoe s1"><i></i></div>
+      <div class="shoe s2"><i></i></div>
+      <div class="stage-floor"></div>
+    </div>
+    <p class="note" style="margin-top:6px">Il moonwalk, a modo nostro.</p>
+
+    <h3 class="sub">Passi iconici</h3>
+    <div class="moves">
+      <div class="move"><b>Moonwalk</b><p>Sembra camminare in avanti mentre scivola all'indietro. Non lo inventò lui, ma lo rese leggenda.</p></div>
+      <div class="move"><b>Lean</b><p>L'inclinazione in avanti oltre il possibile in "Smooth Criminal", ottenuta grazie a un sistema di fissaggio dei piedi brevettato.</p></div>
+      <div class="move"><b>Toe stand</b><p>Equilibrio sulle punte dei piedi, una firma dei suoi spettacoli.</p></div>
+      <div class="move"><b>Spin</b><p>Giravolte velocissime e precise, che concludeva spesso con una posa immobile.</p></div>
+      <div class="move"><b>Gesto del cappello</b><p>Un tocco al fedora, un movimento secco, e il pubblico impazziva.</p></div>
+      <div class="move"><b>Coreografie di gruppo</b><p>Nei video come Thriller e Beat It la danza era narrazione, con ballerini che si muovevano come un organismo unico.</p></div>
+    </div>
+
+    <h3 class="sub">Outfit celebri</h3>
+    <div class="moves">
+      <div class="move"><b>🧤 Il guanto</b><p>Un solo guanto bianco tempestato di cristalli, comparso per la prima volta nel 1983.</p></div>
+      <div class="move"><b>🧥 La giacca rossa</b><p>La giacca di pelle rossa del video di Thriller.</p></div>
+      <div class="move"><b>👞 Calzini e mocassini</b><p>Pantaloni corti che lasciano vedere calzini bianchi luccicanti e mocassini neri.</p></div>
+      <div class="move"><b>🎩 Il fedora</b><p>Il cappello nero, simbolo di Smooth Criminal e di molti suoi concerti.</p></div>
+      <div class="move"><b>🪖 Le giacche militari</b><p>Decorate con spille e alamari, tipiche del periodo Bad e Dangerous.</p></div>
+      <div class="move"><b>🕶️ Occhiali scuri</b><p>Un tocco di mistero che accompagnava molte apparizioni pubbliche.</p></div>
+    </div>
+  </section>
+
+  <!-- CUORE / BENEFICENZA -->
+  <section class="section dark" id="cuore">
+    <h2 class="title">Umanità e beneficenza</h2>
+    <p class="lead">Il lato di Michael che voleva cambiare il mondo con la musica.</p>
+    <div class="two-col">
+      <div class="panel"><h3>Il record del Guinness</h3><p>Secondo il Guinness dei Primati, Jackson è stato tra le star del pop che hanno sostenuto il maggior numero di organizzazioni benefiche, con decine di realtà aiutate nel corso degli anni.</p></div>
+      <div class="panel"><h3>Heal the World Foundation</h3><p>Fondata nel 1992 per aiutare bambini in difficoltà, malati o in zone di guerra. Neverland veniva talvolta aperta a gruppi di ragazzi in cura o in situazioni difficili.</p></div>
+    </div>
+    <h3 class="sub">Canzoni con un messaggio</h3>
+    <div class="chips">
+      <span><b>We Are the World</b> · fame e solidarietà</span>
+      <span><b>Heal the World</b> · un mondo migliore per i bambini</span>
+      <span><b>Earth Song</b> · ambiente e pace</span>
+      <span><b>Man in the Mirror</b> · cambiare partendo da sé</span>
+      <span><b>Black or White</b> · contro il razzismo</span>
+      <span><b>They Don't Care About Us</b> · ingiustizia e diritti</span>
+    </div>
+  </section>
+
+  <!-- EREDITA -->
+  <section class="section" id="eredita">
+    <h2 class="title">L'eredità</h2>
+    <p class="lead">Perché la sua musica è ancora ovunque.</p>
+    <div class="two-col">
+      <div class="panel"><h3>Pop, R&amp;B e hip-hop</h3><p>Ha fuso generi diversi e ha reso il pop un fenomeno globale. Molti artisti, da Usher a Justin Timberlake, da Beyoncé a Bruno Mars, hanno dichiarato di essersi ispirati a lui.</p></div>
+      <div class="panel"><h3>Danza contemporanea</h3><p>Il suo stile ha influenzato coreografi e ballerini in tutto il mondo, e le sue mosse sono ancora oggi studiate e imitate.</p></div>
+      <div class="panel"><h3>Il musical MJ</h3><p>Debuttato a Broadway nel 2022, racconta la preparazione del Dangerous World Tour. Ha poi viaggiato tra Stati Uniti, Londra, Amburgo e Australia.</p></div>
+      <div class="panel"><h3>Cirque du Soleil</h3><p>Gli spettacoli a lui dedicati, come Immortal World Tour e il progetto fisso a Las Vegas, hanno portato la sua musica in chiave acrobatica.</p></div>
+      <div class="panel"><h3>Album postumi</h3><p>"Michael" (2010) e "Xscape" (2014) raccolgono materiale inedito o ripreso dall'archivio.</p></div>
+      <div class="panel"><h3>Film e documentari</h3><p>Dal film "This Is It" (2009) al biopic "Michael", diretto da Antoine Fuqua e interpretato dal nipote Jaafar Jackson, con uscita fissata ad aprile 2026.</p></div>
+    </div>
+  </section>
+
+  <!-- CURIOSITA -->
+  <section class="section dark" id="curiosita">
+    <h2 class="title">Curiosità poco conosciute</h2>
+    <p class="lead">Tocca una tessera per scoprire il retroscena.</p>
+    <div class="curio-grid">
+      <button class="curio"><span>Il passo "impossibile"</span><p>Per il celebre scatto in avanti inclinato di "Smooth Criminal" lui e due collaboratori brevettarono nel 1993 un sistema di scarpe con fissaggio al palco.</p></button>
+      <button class="curio"><span>Non ha inventato il moonwalk</span><p>Passi simili esistevano da decenni. Jackson li imparò, li perfezionò e li rese famosi in tutto il mondo.</p></button>
+      <button class="curio"><span>I Beatles in portafoglio</span><p>Nel 1985 acquistò il catalogo editoriale ATV, che includeva molte canzoni dei Beatles, per circa 47 milioni di dollari.</p></button>
+      <button class="curio"><span>Un video-cortometraggio</span><p>Il video di "Thriller", diretto da John Landis, dura circa 14 minuti e fu trattato come un vero film musicale.</p></button>
+      <button class="curio"><span>Eddie Van Halen alla chitarra</span><p>L'assolo in "Beat It" è del chitarrista Eddie Van Halen, che registrò il suo contributo come favore.</p></button>
+      <button class="curio"><span>Una voce per il Super Bowl</span><p>Nel 1993 si esibì all'intervallo del Super Bowl, trasformando un evento sportivo in un grande spettacolo musicale.</p></button>
+      <button class="curio"><span>Compositore, non solo cantante</span><p>Scrisse o co-scrisse gran parte dei suoi successi, tra cui "Billie Jean" e "Beat It", oltre a "We Are the World" con Lionel Richie.</p></button>
+      <button class="curio"><span>Il baule dei costumi</span><p>Il guanto con i cristalli, i calzini luccicanti e il cappello fedora sono diventati simboli così riconoscibili che molti li associano subito a lui.</p></button>
+    </div>
+  </section>
+
+  <!-- NUMERI -->
+  <section class="section" id="numeri">
+    <h2 class="title">In numeri</h2>
+    <div class="stats">
+      <div class="stat"><span class="num" data-target="13">0</span><p>Grammy Awards</p></div>
+      <div class="stat"><span class="num" data-target="8">0</span><p>Grammy in una sola notte (1984)</p></div>
+      <div class="stat"><span class="num" data-target="6">0</span><p>album in studio da adulto</p></div>
+      <div class="stat"><span class="num" data-target="1969">0</span><p>anno del primo successo con i Jackson 5</p></div>
+    </div>
+  </section>
+
+  <!-- GALLERIA -->
+  <section class="section dark" id="galleria">
+    <h2 class="title">Galleria</h2>
+    <p class="lead">Spazio per le foto che vorrai aggiungere tu.</p>
+    <div class="gallery">
+      <figure class="slot"><img src="img/foto1.jpg" alt="" onerror="this.remove()"><figcaption>foto 1</figcaption></figure>
+      <figure class="slot"><img src="img/foto2.jpg" alt="" onerror="this.remove()"><figcaption>foto 2</figcaption></figure>
+      <figure class="slot"><img src="img/foto3.jpg" alt="" onerror="this.remove()"><figcaption>foto 3</figcaption></figure>
+      <figure class="slot"><img src="img/foto4.jpg" alt="" onerror="this.remove()"><figcaption>foto 4</figcaption></figure>
+      <figure class="slot"><img src="img/foto5.jpg" alt="" onerror="this.remove()"><figcaption>foto 5</figcaption></figure>
+      <figure class="slot"><img src="img/foto6.jpg" alt="" onerror="this.remove()"><figcaption>foto 6</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section" id="quiz">
+    <h2 class="title">Quanto lo conosci?</h2>
+    <div class="quiz" id="quiz-box">
+      <p class="q-count" id="q-count"></p>
+      <h3 id="q-text"></h3>
+      <div class="answers" id="answers"></div>
+      <p class="feedback" id="feedback"></p>
+      <button class="btn" id="next" hidden>Avanti</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Un omaggio al Re del Pop ✦</p>
+    <p class="small">Sito realizzato con affetto da un fan. Non ufficiale e senza scopo di lucro.</p>
+  </footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modal-close" aria-label="Chiudi">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
